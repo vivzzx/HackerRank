@@ -1,0 +1,18 @@
+/*
+ * Complete the Rectangle function
+ */
+function Rectangle(a, b) {
+    let rectangleObj = {
+        length : a,
+        width : b,
+        perimeter: 2 * (a + b),
+        area: a * b  
+    }
+    return rectangleObj
+} 
+
+
+//length: a
+//width: b
+//must return: a, b, perimeter, area
+console.log(Rectangle(4, 5))
