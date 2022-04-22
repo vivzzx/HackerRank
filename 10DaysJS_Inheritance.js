@@ -7,17 +7,7 @@ class Rectangle {
         return this.w * this.h;
     } */
 }
-
-
-
-const pattern = {
-    area() {
-        return this.w * this.h;
-    }
-}
-
  
-
 /*
  *  Write code that adds an 'area' method to the Rectangle class' prototype
  */
@@ -50,4 +40,3 @@ console.log(sqr.constructor)
 console.log(rec.area());
 console.log(sqr.area()); 
 
-//console.log(Rectangle)
